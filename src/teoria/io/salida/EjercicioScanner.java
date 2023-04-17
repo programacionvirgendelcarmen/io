@@ -1,4 +1,4 @@
-package teoria.entrada;
+package teoria.io.salida;
 
 import java.io.File;
 import java.io.FileNotFoundException;
