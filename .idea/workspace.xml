@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca8fbe18-e3d1-4650-acdd-b3819a9c7607" name="Changes" comment="Ficheros">
+    <list default="true" id="ca8fbe18-e3d1-4650-acdd-b3819a9c7607" name="Changes" comment="Fin de teoría">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria/entrada/EjercicioByte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/io/salida/EjercicioByte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria/entrada/EjercicioChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/io/salida/EjercicioChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria/entrada/EjercicioScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/io/salida/EjercicioScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria/salida/EjercicioBufferBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/io/entrada/EjercicioBufferBytes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria/salida/EjercicioBufferCaracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/io/entrada/EjercicioBufferCaracter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria/salida/EjercicioPrintWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/io/entrada/EjercicioPrintWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria/salida/EjercicioSinBufferBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/io/entrada/EjercicioSinBufferBytes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria/salida/EjercicioSinBufferCaracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/io/entrada/EjercicioSinBufferCaracter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/Quijote.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/Quijote.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/Quijote_back.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/Quijote_back.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/Tux.svg" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/Tux.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/fichero1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/fichero1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/fichero2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/fichero2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/fichero3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/fichero3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/fichero4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/fichero4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/fichero5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/fichero5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/io4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/io4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILES/io4_back.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/FILES_TEORIA/io4_back.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/io/Copiar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/io/CopiarCaracteres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/nio/Auxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/nio/Auxiliar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/nio/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/nio/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +49,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/manuel/curso_22_23/ficheros/FILES"
+    "last_opened_file_path": "/home/manuel/curso_22_23/ficheros/FILES_EJERCICIOS"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FILES_EJERCICIOS" />
       <recent name="$PROJECT_DIR$/FILES" />
     </key>
   </component>
@@ -68,11 +74,19 @@
       <option name="project" value="LOCAL" />
       <updated>1681487033536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fin de teoría">
+      <created>1681743389549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681743389549</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ficheros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ficheros" />
+    <MESSAGE value="Fin de teoría" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin de teoría" />
   </component>
 </project>
