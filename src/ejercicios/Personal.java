@@ -9,6 +9,11 @@ public class Personal {
     public Personal(List<Persona> personas) {
         this.people = personas;
     }
+
+    public List<Persona> getPeople() {
+        return people;
+    }
+
     //Un método que nos sirva para añadir objetos Persona
     public boolean addPerson (Persona person){
         return people.add(person);
