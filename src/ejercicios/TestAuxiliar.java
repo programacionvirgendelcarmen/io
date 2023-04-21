@@ -10,7 +10,7 @@ public class TestAuxiliar {
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         try {
-            people = Auxiliar.getListPeopleFromFile(
+            people = Auxiliar.getListPeopleFromCSV(
                     "FILES_EJERCICIOS/personal.csv");
         } catch (IOException e) {
             System.out.printf("No existe el fichero %s%n" , e.getMessage());
@@ -25,7 +25,7 @@ public class TestAuxiliar {
                     System.out.println("Cerrando al aplicación");
                     scanner.close();
                     try {
-                        Auxiliar.saveData(personal.getPeople());
+                        Auxiliar.saveDataAsCSV(personal.getPeople());
                     } catch (IOException e) {
                         System.out.printf("Problema con %s%n", e.getMessage());
                     }

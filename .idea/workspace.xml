@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca8fbe18-e3d1-4650-acdd-b3819a9c7607" name="Changes" comment="Inicio ejercicio">
-      <change afterPath="$PROJECT_DIR$/FILES_EJERCICIOS/personal_20-4-2023_15:28.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FILES_EJERCICIOS/personal_20-4-2023_15:32.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/TestAuxiliar.java" afterDir="false" />
+    <list default="true" id="ca8fbe18-e3d1-4650-acdd-b3819a9c7607" name="Changes" comment="fin ejercicio 1">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FILES_EJERCICIOS/personal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FILES_TEORIA/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FILES_TEORIA/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LIBRERIAS/gson-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teoria/json/Diccionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teoria/json/LeerFileArrayJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teoria/json/LeerFileJsonMapeado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teoria/json/LeerFileJsonSinMapear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teoria/json/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficheros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ficheros.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejercicios/Auxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/Auxiliar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios/Personal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/Personal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios/TestAuxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/TestAuxiliar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/manuel/curso_22_23/ficheros/FILES_EJERCICIOS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/manuel/curso_22_23/ficheros/LIBRERIAS/gson-2.9.0.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LIBRERIAS" />
       <recent name="$PROJECT_DIR$/FILES_EJERCICIOS" />
       <recent name="$PROJECT_DIR$/FILES" />
     </key>
@@ -80,13 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681832569885</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fin ejercicio 1">
+      <created>1681998286370</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681998286370</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ficheros" />
     <MESSAGE value="Fin de teoría" />
     <MESSAGE value="Inicio ejercicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio ejercicio" />
+    <MESSAGE value="fin ejercicio 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin ejercicio 1" />
   </component>
 </project>
