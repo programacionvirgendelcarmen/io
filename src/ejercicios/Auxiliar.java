@@ -2,7 +2,16 @@ package ejercicios;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.xml.sax.SAXException;
+import org.w3c.dom.NodeList;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
@@ -58,9 +67,43 @@ public class Auxiliar {
 
         return personas;
     }
-    public static List<Persona> getListPeopleFromXML(String path) {
+    public static List<Persona> getListPeopleFromXML(String path) throws IOException, SAXException, ParserConfigurationException {
         List<Persona> personas = new ArrayList<>();
-        //código
+        File inputFile = new File(path);
+        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+        Document doc = dBuilder.parse(inputFile);
+        doc.getDocumentElement().normalize();
+        NodeList nList = doc.getElementsByTagName("persona");
+        for (int temp = 0; temp < nList.getLength(); temp++) {
+            Node nNode = nList.item(temp);
+            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                Element eElement = (Element) nNode;
+                String firstName = eElement
+                        .getElementsByTagName("firstName")
+                        .item(0)
+                        .getTextContent();
+                String lastName = eElement
+                        .getElementsByTagName("lastName")
+                        .item(0)
+                        .getTextContent();
+                String email = eElement
+                        .getElementsByTagName("email")
+                        .item(0)
+                        .getTextContent();
+                String gender = eElement
+                        .getElementsByTagName("gender")
+                        .item(0)
+                        .getTextContent();
+                String country = eElement
+                        .getElementsByTagName("country")
+                        .item(0)
+                        .getTextContent();
+                personas.add(new Persona(firstName, lastName, email,
+                        gender, country));
+            }
+        }
         return personas;
     }
+
 }

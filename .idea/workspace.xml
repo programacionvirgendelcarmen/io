@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca8fbe18-e3d1-4650-acdd-b3819a9c7607" name="Changes" comment="Ejercicio con json">
+    <list default="true" id="ca8fbe18-e3d1-4650-acdd-b3819a9c7607" name="Changes" comment="Ejercicio con xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejercicios/Auxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/Auxiliar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios/TestAuxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/TestAuxiliar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios/TestAuxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/TestPersonal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682091725683</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ejercicio con xml">
+      <created>1682349122782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682349122782</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,6 +114,7 @@
     <MESSAGE value="Inicio ejercicio" />
     <MESSAGE value="fin ejercicio 1" />
     <MESSAGE value="Ejercicio con json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio con json" />
+    <MESSAGE value="Ejercicio con xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio con xml" />
   </component>
 </project>

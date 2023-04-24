@@ -1,20 +1,23 @@
 package ejercicios;
 
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
-public class TestAuxiliar {
+public class TestPersonal {
     private static List<Persona> people = null;
     private static Personal personal = null;
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         try {
-            people = Auxiliar.getListPeopleFromJSON(
-                    "FILES_EJERCICIOS/personal.json");
+            people = Auxiliar.getListPeopleFromXML(
+                    "FILES_EJERCICIOS/personal.xml");
           //  System.out.println(people);
-        } catch (IOException e) {
-            System.out.printf("No existe el fichero %s%n" , e.getMessage());
+        } catch (IOException | SAXException | ParserConfigurationException e) {
+            System.out.printf("Excepción: " + e.getMessage());
             return;
         }
         personal = new Personal(people);
