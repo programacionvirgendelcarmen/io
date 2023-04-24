@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca8fbe18-e3d1-4650-acdd-b3819a9c7607" name="Changes" comment="fin ejercicio 1">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FILES_EJERCICIOS/personal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FILES_TEORIA/user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FILES_TEORIA/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LIBRERIAS/gson-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teoria/json/Diccionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teoria/json/LeerFileArrayJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teoria/json/LeerFileJsonMapeado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teoria/json/LeerFileJsonSinMapear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teoria/json/User.java" afterDir="false" />
+    <list default="true" id="ca8fbe18-e3d1-4650-acdd-b3819a9c7607" name="Changes" comment="Ejercicio con json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ficheros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ficheros.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejercicios/Auxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/Auxiliar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejercicios/TestAuxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/TestAuxiliar.java" afterDir="false" />
     </list>
@@ -49,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/manuel/curso_22_23/ficheros/LIBRERIAS/gson-2.9.0.jar",
+    "last_opened_file_path": "/home/manuel/curso_22_23/ficheros/FILES_EJERCICIOS",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -57,9 +46,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/LIBRERIAS" />
       <recent name="$PROJECT_DIR$/FILES_EJERCICIOS" />
+      <recent name="$PROJECT_DIR$/LIBRERIAS" />
       <recent name="$PROJECT_DIR$/FILES" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FILES_TEORIA" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -99,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681998286370</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ejercicio con json">
+      <created>1682091725683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682091725683</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,6 +106,7 @@
     <MESSAGE value="Fin de teoría" />
     <MESSAGE value="Inicio ejercicio" />
     <MESSAGE value="fin ejercicio 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin ejercicio 1" />
+    <MESSAGE value="Ejercicio con json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio con json" />
   </component>
 </project>

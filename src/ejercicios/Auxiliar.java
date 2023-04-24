@@ -1,6 +1,10 @@
 package ejercicios;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
 import java.io.IOException;
+import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
@@ -47,7 +51,16 @@ public class Auxiliar {
         }
 
     }
-    public static List<Persona> getListPeopleFromJSON (String path) {
-        return null;
+    public static List<Persona> getListPeopleFromJSON (String path) throws IOException {
+        Gson gson = new Gson();
+        Reader reader = Files.newBufferedReader(Paths.get(path));
+        List<Persona> personas = new Gson().fromJson(reader, new TypeToken<List<Persona>>() {}.getType());
+
+        return personas;
+    }
+    public static List<Persona> getListPeopleFromXML(String path) {
+        List<Persona> personas = new ArrayList<>();
+        //código
+        return personas;
     }
 }

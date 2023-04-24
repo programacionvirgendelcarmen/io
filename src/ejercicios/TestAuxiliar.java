@@ -10,8 +10,9 @@ public class TestAuxiliar {
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         try {
-            people = Auxiliar.getListPeopleFromCSV(
-                    "FILES_EJERCICIOS/personal.csv");
+            people = Auxiliar.getListPeopleFromJSON(
+                    "FILES_EJERCICIOS/personal.json");
+          //  System.out.println(people);
         } catch (IOException e) {
             System.out.printf("No existe el fichero %s%n" , e.getMessage());
             return;
